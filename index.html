@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himanshu Reheja | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    header {
+      width: 100%;
+      padding: 20px 60px;
+      background: #161b22;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 22px;
+      color: #58a6ff;
+    }
+
+    nav a {
+      color: #c9d1d9;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #58a6ff;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 60px;
+      background: linear-gradient(to right, #0d1117, #0b2d52);
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .hero-text h2 {
+      font-size: 42px;
+      color: #58a6ff;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #c9d1d9;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      background: #58a6ff;
+      border: none;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #1f6feb;
+    }
+
+    .hero img {
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+    }
+
+    /* Section Common */
+    section {
+      padding: 60px 80px;
+    }
+
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: #58a6ff;
+      border-left: 4px solid #58a6ff;
+      padding-left: 10px;
+    }
+
+    /* About Section */
+    .about-container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .about-container img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      border: 3px solid #58a6ff;
+      object-fit: cover;
+    }
+
+    .about-text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    /* Education */
+    .education p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    /* Projects */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #161b22;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #58a6ff;
+    }
+
+    /* Contact */
+    .contact {
+      text-align: center;
+    }
+
+    .social-links a {
+      color: #c9d1d9;
+      margin: 0 15px;
+      font-size: 26px;
+      transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #58a6ff;
+    }
+
+    /* Footer */
+    footer {
+      background: #161b22;
+      padding: 20px;
+      text-align: center;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1>Himanshu Reheja</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h2>Hello, I'm Himanshu Raheja</h2>
+      <p>👨‍🎓MCA '26 || Python || Android Developer || Programmer🧑‍💻 || Social Media Manager || BCA '24(GGSIPU) 🎓</p>
+      <a href="./HIMANSHU_RAHEJA (RESUME).pdf" class="btn" target="_blank">View My Resume</a>
+    </div>
+    <div>
+      <img src="./image_1.jpg" alt="Himanshu Reheja">
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="./image_2.jpg" alt="Himanshu Reheja">
+      <div class="about-text">
+        <p>Hello! I'm <b>Himanshu Reheja</b>. A Master's student in Computer Applications at Guru Gobind Singh Indraprastha University (GGSIPU).I enjoy building modern, responsive websites and applications.With a strong foundation in Python, data analysis, and Android app development, I craft innovative solutions that showcase my technical expertise. Throughout my journey, I've successfully developed numerous projects that demonstrate my commitment to delivering high-quality applications. I'm passionate about leveraging technology to drive impactful solutions and continuously expanding my skill set. Let's connect and explore how we can collaborate to create something amazing.
+           I focus on creating clean code, scalable solutions, and user-friendly designs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="education">
+  <h2>Education</h2>
+  <div class="projects-grid">
+      <div class="card">
+        <h3>Guru Gobind Singh Indraprastha University, New Delhi</h3>
+        <p><b>Master of Computer Application (MCA)</b></p>
+        <p>Year - 2024 to Pursuing</p>
+        <p>CGPA - 8</p>
+      </div>
+      <div class="card">
+        <h3>Guru Gobind Singh Indraprastha University, New Delhi</h3>
+        <p><b>Bachelor of Computer Application (BCA)</b></p>
+        <p>Year - 2021 to 2024</p>
+        <p>CGPA - 7.873</p>
+        
+      </div>
+      <div class="card">
+       <h3>Sant Kabir Das Model school, New Delhi</h3>
+        <p><b>Intermediatte (12 th)</b></p>
+        <p>Year- 2021 </p>
+        <p>Percentage - 65%</p>
+      </div>
+      <div class="card">
+        <h3>Bal Vikas Public School, New Delhi</h3>
+        <p><b>matriculation (10 th)</b></p>
+        <p>year -2020 </p>
+         <p>Percentage - 62%</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A personal website to showcase my skills, projects, and achievements.</p>
+      </div>
+      <div class="card">
+        <h3>Voice Command System</h3>
+        <p>Developed a voice command system that allows users to interact with desktop or PC devices using voice commands.</p>
+      </div>
+      <div class="card">
+        <h3>E-Commerce Website</h3>
+        <p>Online store with product listings, shopping cart, and checkout system.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>"Let's connect! Feel free to reach out to me on LinkedIn or via email. Looking forward to collaborating or discussing opportunities! 😊"</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="/https://github.com/himanshuraheja-hub" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:himanshuraaheja@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>//  Himanshu Reheja  //</p>
+  </footer>
+
+</body>
+</html>
